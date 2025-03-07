@@ -9,7 +9,7 @@ const initialState = {
   error: null,
 };
 
-const BASE_URL = 'http://localhost:3000/products';
+const BASE_URL = 'https://api.npoint.io/aa5735d5cba54600fc53/products';
 
 export const fetchProducts = createAsyncThunk(
   'products/fetchProducts',
